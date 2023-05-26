@@ -1,0 +1,21 @@
+{
+  "name": "shadowseek-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for ShadowSeek",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "npx nodemon src/app.js",
+    "prettier": "npx prettier --write ./"
+  },
+  "keywords": [],
+  "author": "Zachey",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  }
+}
