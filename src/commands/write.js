@@ -4,7 +4,7 @@ module.exports = async (ctx) => {
   async function forwardToGroup(ctx, groupId) {
     try {
       // проверяем наличие текста сообщения
-      if (!ctx?.message?.text?.slice(6)) {
+      if (!ctx.message.text.slice(6)) {
         throw new Error("Текст сообщения отсутствует");
       }
 
